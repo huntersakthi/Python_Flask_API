@@ -1,0 +1,21 @@
+{% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
+    %}
+    <a href="/summary">Get Market Summary</a> >
+    <br />
+    <br />
+    <form method="POST">
+        <h3 align="left">Get Cryptocurrency Pair Data</h3>
+        <div class="form-group">
+          <label for="email">Currency Pair</label>
+          <input
+            type="pair"
+            class="form-control"
+            id="pair"
+            name="pair"
+            placeholder="Eg : BTC-USD"
+          />
+        </div>       
+        <br />
+        <button type="submit" class="btn btn-primary">Get Data</button>
+      </form>
+    {% endblock %}

@@ -1,0 +1,10 @@
+{
+    "summary":{
+        "url":"https://api.bittrex.com/v3/markets/summaries"
+    },
+    "query":
+    {
+        "url":"https://api.bittrex.com/v3/markets/"
+    }
+    
+}
