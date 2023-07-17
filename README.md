@@ -17,4 +17,4 @@ This Application utilizes the following Libraries in python
 - Flask
 - SQL Alchemy
 -  Werkzeug - For Password Encryption
--  Other Standard PythonLibraries 
+-  Other Standard Python Libraries 
